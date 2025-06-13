@@ -1,8 +1,8 @@
 <?php
-$host = "dpg-d0l7hhd6ubrc73brka8g-a.oregon-postgres.render.com";
+$host = "dpg-d15o9n15pdvs73drcde0-a.oregon-postgres.render.com";
 $user = "actividadesmyv20251_db";
-$password = "uotJSNlw76KNVHN9rpPCyWvaZf5X4nxc";
-$dbname = "actividadesmyv20251_db_c6sw";
+$password = "WYGwGW7eOkNXULdJ1sL3lTalZrR7K5tw";
+$dbname = "actividadesmyv20251_db_mdqu";
 $port = "5432";
 
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");

@@ -5,7 +5,9 @@ $password = "WYGwGW7eOkNXULdJ1sL3lTalZrR7K5tw";
 $dbname = "actividadesmyv20251_db_mdqu";
 $port = "5432";
 
-$conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+//$conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+$conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password sslmode=require");
+
 
 if (!$conn) {
     die("Error de conexión: " . pg_last_error());
